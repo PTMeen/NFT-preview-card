@@ -11,7 +11,10 @@ const CardFooter = () => {
         />
       </div>
       <p>
-        Creation of <span className="text-white">Jules Wyvern</span>
+        Creation of{' '}
+        <a href="#" className="text-white cursor-pointer hover:text-cyan">
+          Jules Wyvern
+        </a>
       </p>
     </div>
   );

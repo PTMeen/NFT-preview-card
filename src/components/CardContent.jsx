@@ -5,7 +5,9 @@ import colors from 'tailwindcss/colors';
 const CardContent = () => {
   return (
     <div>
-      <h1 className="text-2xl font-bold text-white">Equilibrium #3429</h1>
+      <h1 className="text-2xl font-bold text-white cursor-pointer hover:text-cyan">
+        Equilibrium #3429
+      </h1>
       <p className="my-8">
         Our Equilibrium collection promotes balance and calm. 0.041 ETH 3 days
         left Creation of Jules Wyvern
